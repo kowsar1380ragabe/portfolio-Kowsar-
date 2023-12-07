@@ -1,0 +1,90 @@
+/* App */
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Technology Card */
+.technology-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.technology-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.technology-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.technology-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.technology-card:hover {
+  transform: scale(1.05);
+}
+
+/* Technologies Container */
+.technologies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Reset default margins for ul and li */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* App.css */
+
+@keyframes scaleRotateAnimation {
+  0% {
+    transform: scale(0) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.animate-header {
+  animation: scaleRotateAnimation 2s ease-in-out;
+  /* Customize the animation duration as needed */
+}

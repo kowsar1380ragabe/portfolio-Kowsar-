@@ -1,0 +1,15 @@
+b {
+  color: rgb(17, 18, 18);
+  background-color: aqua;
+  font-style: normal;
+  width: 20px;
+  height: 20px;
+  padding-top: 70px;
+  margin-top: 70px;
+
+  align-items: center;
+}
+p {
+  padding-top: 70px;
+  align-items: flex-start;
+}

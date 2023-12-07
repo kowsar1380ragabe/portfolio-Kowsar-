@@ -1,0 +1,48 @@
+.evidence.box {
+  padding: 50px;
+}
+.evidence.box h2 {
+  margin: 20px 0 20px 0;
+}
+.features.box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+.evidence.box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.evidence .box:hover p {
+  color: rgb(247, 244, 244);
+}
+.evidence .box:hover i {
+  color: rgb(244, 241, 241);
+  opacity: 1;
+}
+.homework1 {
+  background-color: rgb(247, 242, 234);
+  padding: 0 0 0 0;
+}
+.homework2 {
+  background-color: rgb(250, 246, 241);
+  padding-left: 450px;
+}
+.homework3 {
+  background-color: rgb(255, 252, 249);
+  padding-left: 900px;
+}
+.homework4 {
+  background-color: rgb(245, 244, 244);
+
+  padding: 0 0 0 0;
+}
+.homework5 {
+  background-color: rgb(245, 244, 244);
+  padding-left: 450px;
+}
+.homework6 {
+  background-color: rgb(245, 244, 244);
+  padding-left: 900px;
+}

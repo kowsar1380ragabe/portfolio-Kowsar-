@@ -1,0 +1,23 @@
+.homework.box {
+  padding: 50px;
+}
+.homework.box h2 {
+  margin: 20px 0 20px 0;
+}
+.homework.box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+.homework.box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.homework.box:hover p {
+  color: rgb(247, 244, 244);
+}
+.homework.box:hover i {
+  color: rgb(244, 241, 241);
+  opacity: 1;
+}
